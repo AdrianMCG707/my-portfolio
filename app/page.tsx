@@ -12,9 +12,9 @@ export default function Home() {
           <a href="#projects" className="text-sm text-[#5f5e5a] hover:text-[#1a1a18] transition-colors">Work</a>
           <a href="#about" className="text-sm text-[#5f5e5a] hover:text-[#1a1a18] transition-colors">About</a>
           <a href="#contact" className="text-sm text-[#5f5e5a] hover:text-[#1a1a18] transition-colors">Contact</a>
-          <button className="text-xs px-4 py-2 rounded-md bg-[#2C2C2A] text-[#F1EFE8] hover:bg-[#444441] transition-colors">
-            Resume ↗
-          </button>
+          <a href="/resume.pdf" target="_blank" className="text-xs px-4 py-2 rounded-md bg-[#2C2C2A] text-[#F1EFE8] hover:bg-[#444441] transition-colors">
+          Resume ↗
+          </a>
         </div>
       </nav>
 
@@ -34,12 +34,12 @@ export default function Home() {
                 Currently working in enterprise IT at Kaiser Permanente.
               </p>
               <div className="flex gap-2">
-                <button className="text-xs px-3 py-1.5 rounded-md bg-[#2C2C2A] text-[#F1EFE8] hover:bg-[#444441] transition-colors">
-                  View Resume ↗
-                </button>
-                <button className="text-xs px-3 py-1.5 rounded-md border border-[#2C2C2A] text-[#2C2C2A] hover:bg-[#F5F4EF] transition-colors">
-                  GitHub ↗
-                </button>
+              <a href="/resume.pdf" target="_blank" className="text-xs px-3 py-1.5 rounded-md bg-[#2C2C2A] text-[#F1EFE8] hover:bg-[#444441] transition-colors">
+                View Resume ↗
+              </a>
+              <button className="text-xs px-4 py-2 rounded-md bg-[#2C2C2A] text-[#F1EFE8] hover:bg-[#444441] transition-colors">
+              Get in touch ↗
+              </button>
                 <button className="text-xs px-3 py-1.5 rounded-md border border-[#2C2C2A] text-[#2C2C2A] hover:bg-[#F5F4EF] transition-colors">
                   LinkedIn ↗
                 </button>
